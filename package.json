@@ -1,0 +1,30 @@
+{
+  "name": "minio-playground",
+  "version": "1.0.0",
+  "description": "Playground repository for uploading files thru minio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsilify/minio-playground.git"
+  },
+  "author": "Epsilify",
+  "license": "MIT No Attribution",
+  "bugs": {
+    "url": "https://github.com/epsilify/minio-playground/issues"
+  },
+  "homepage": "https://github.com/epsilify/minio-playground#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "minio": "^7.0.20",
+    "restify": "^8.6.0",
+    "restify-router": "^0.6.2",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
